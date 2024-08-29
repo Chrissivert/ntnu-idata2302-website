@@ -495,7 +495,7 @@ number: :math:`n! = 1 \times 2 \times 3 \times \ldots \times n`.
 .. code:: java
 
      public int factorial(int n) {
-       int result = 1
+       int result = 1;
        int each = 1;
        while (each <= n) {
          result = result * each;
